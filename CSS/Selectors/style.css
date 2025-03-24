@@ -1,0 +1,72 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Type Selector */
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #666;
+}
+
+/* Class Selector */
+.header {
+    background-color: #ff7c0a;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Grouping Selector */
+#home,
+#about,
+#contact,
+#services {
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* ID Selector */
+#home {
+    background-color: #eb7f02;
+
+}
+
+#about {
+    background-color: #007bff;
+}
+
+#services {
+    background-color: #cd07ff;
+}
+
+#contact {
+    background-color: #28a745;
+}
+
+/* Attribute Selector */
+.form input[type="text"] {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+/* Pseudo-classes */
+button:hover {
+    background-color: #c88046;
+    color: #fff;
+}
+
+/* Pseudo-elements */
+h1::after {
+    content: " - PLP Web Development";
+    font-size: 0.7em;
+    color: #666;
+}

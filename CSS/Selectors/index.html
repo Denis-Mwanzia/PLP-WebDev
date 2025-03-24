@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Denis Mwanzia">
+    <meta name="description" content="CSS Selectors and Specificity">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors and Specificity</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <h1>FibeCast</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="home">
+            <h2>Welcome to FibeCast</h2>
+            <p>FibeCast is a revolutionary platform that connects businesses with potential customers. Our team of
+                experts specializes in providing personalized recommendations based on your interests and preferences.
+            </p>
+            <button>Learn More</button>
+        </div>
+        <div id="about">
+            <h2>About Us</h2>
+            <p>Founded in 2021, FibeCast has grown to become one of the most popular businesses in the industry. Our
+                team of
+                experts has been dedicated to creating a unique and engaging experience for our customers.
+            </p>
+            <button>Read More</button>
+        </div>
+        <div id="services">
+            <h2>Our Services</h2>
+            <p>At FibeCast, we strive to provide our customers with the best possible recommendations. We offer a
+                variety of
+                services to help businesses find the right people for their needs.
+            </p>
+            <button>Explore Services</button>
+        </div>
+        <div id="contact">
+            <h2>Contact Us</h2>
+            <div class="form">
+                <div class="name">
+                    <label for="name">Name:</label><br>
+                    <input type="text" placeholder="Name">
+                </div>
+                <div class="email">
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="message">
+                    <label for="message">Message:</label><br>
+                    <textarea placeholder="Message"></textarea>
+                </div>
+                <input type="submit" value="Submit">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; FibeCast 2022. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
