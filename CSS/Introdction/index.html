@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta nme="author" content="Denis Mwanzia">
+    <meta name="description" content="Introduction to CSS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <!-- Internal CSS -->
+    <style>
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Inline CSS -->
+        <h1 style="color: red; font-size: 24px;">Introduction to CSS</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the home page.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is the about page.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This is the contact page.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 - 2022 My Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

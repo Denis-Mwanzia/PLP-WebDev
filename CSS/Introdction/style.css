@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+}
+
+#home,
+#about,
+#contact {
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+#home {
+    background-color: #eb7f02;
+
+}
+
+#about {
+    background-color: #007bff;
+}
+
+#contact {
+    background-color: #28a745;
+}
