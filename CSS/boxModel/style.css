@@ -1,0 +1,19 @@
+div {
+    /* Width of the content area */
+    width: 300px;
+    /* Height of the content area */
+    height: 200px;
+    /* Space between content and border */
+    padding: 20px;
+    /* Border around the padding */
+    border: 5px solid black;
+    /* Space outside the border */
+    margin: 30px;
+}
+#cointainer1{
+    background-color: #eb7f02;
+}
+
+#cointainer2{
+    background-color: #007bff;
+}
