@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* === Flexbox Example === */
+.flex-container {
+    display: flex;
+    /* Enables Flexbox */
+    justify-content: space-around;
+    /* Even spacing */
+    align-items: center;
+    /* Aligns items vertically */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: #ff6f61;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* === Grid Example === */
+.grid-container {
+    display: grid;
+    /* Enables CSS Grid */
+    grid-template-columns: repeat(3, 1fr);
+    /* Three equal columns */
+    gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grid-item {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* === Positioning Example === */
+.parent {
+    position: relative;
+    /* Parent is relatively positioned */
+    width: 250px;
+    height: 150px;
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.child {
+    position: absolute;
+    /* Positioned relative to parent */
+    bottom: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* === Box Model Example === */
+.box-model {
+    width: 250px;
+    padding: 20px;
+    /* Adds space inside the box */
+    border: 5px solid black;
+    /* Border around the box */
+    margin: 10px;
+    /* Space outside the box */
+    background-color: lightcoral;
+    border-radius: 5px;
+}
