@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Denis Mwanzia">
+    <meta name="description" content="HTML Link Tag">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+
+<body>
+    <!-- <a> tag defines the hyperlink which is used to link one web page to another -->
+    <a href="URL">Link Text</a>
+
+    <!-- 
+        <a> attributes.
+            href - refers to destination URl.
+            target - refers to where to open the link
+            title - refers to tooltip text
+            download - force download
+            rel - refers to relationship attribute
+         -->
+    <!-- 
+         href - you can link to:
+         1. absolute URL - https://google.com
+         2. Relative URL - about.html
+         3. Page section - #pageName
+         4. Email - mailto:examle@gmail.com
+         5. Phone - tel:+254111111112
+         -->
+
+    <!-- Absolute URL -->
+    <a href="https://google.com">Google</a> <br>
+
+    <!-- Relative URL -->
+    <a href="./textContentTags.html">HTML Content Tags</a> <br>
+
+    <!-- Page section -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+        </ul>
+    </nav>
+    <div id="home">
+        <h2>Home</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illum commodi obcaecati consequatur
+            incidunt maxime et laudantium voluptas dolores a nulla sunt, odio reiciendis nemo aspernatur accusamus?
+            Commodi tempore voluptate, dignissimos magni cum iure culpa libero sit obcaecati eos rem facere velit id
+            ratione suscipit ullam eveniet assumenda quisquam maxime voluptatem consectetur vel! Ut quo dolorum, maxime
+            aperiam expedita, hic ullam provident saepe perspiciatis explicabo incidunt natus eum quas quos.
+        </p>
+    </div>
+
+    <!-- Email -->
+    Email:<a href="mailto:example@gmail.com">example@gmail.com</a> <br>
+
+    <!-- Phone -->
+    Phone Number:<a href="tel:+25411111112">+254 111 111 112</a> <br>
+
+    <!-- 
+     target attribute 
+     1. _self - default
+     2. _blank - link opens in new tab/window
+     3. _parent - link opens in parent frame
+     4. _top - links opens in full body of the window
+      -->
+
+    <!-- _self -->
+    <a href="./textContentTags.html" target="_self">HTML Content Tags</a> <br>
+
+    <!-- _blank -->
+    <a href="./textContentTags.html" target="_blank">HTML Content Tags</a> <br>
+
+    <!-- _parent -->
+    <a href="./textContentTags.html" target="_parent">HTML Content Tags</a> <br>
+
+    <!-- _top -->
+    <a href="./textContentTags.html" target="_top">HTML Content Tags</a> <br>
+
+    <!-- download attribute - forces the browser to download the file instead of opening it -->
+    <a href="./cat.png" download>
+        Download Image
+    </a><br>
+
+    <!-- 
+    rel attribute - used together with target="_blank" for security and SEO
+    1. noopener - Prevent access to window.opener
+    2. noreferrer - Prevents sending referrer
+    3. nofollow - tells search engine not to follow the link
+    -->
+    <a href="./textContentTags.html" target="_blank" rel="noopener noreferrer">Secure Link</a> <br>
+
+    <!-- ToolTip attribute -->
+    <a href="./textContentTags.html" title="Go to HTML Content Tags Page">HTML Content Tags Page</a>
+</body>
+
+</html>
