@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" author="Denis Mwanzia">
+    <meta name="description" content="HTML list tags">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Tags</title>
+</head>
+
+<body>
+    <!-- 
+    List tags are used to group related data
+    There are 3 types:
+        1. <ol> - ordered list
+        2. <ul> - unordered list
+        3. <dl> - description list
+    -->
+    <!-- 
+    <ol> - displays list in numbered or lettered format
+    Example:
+     -->
+    <ol>
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Mangoes</li>
+        <li>Bananas</li>
+    </ol>
+    <!-- 
+    <ol> attributes
+        1. type: - changes numbering style
+            <ol type="A">  A, B, C -
+            <ol type="a"> a, b, c
+            <ol type="I"> I, II, III 
+            <ol type="i"> i, ii, iii 
+        2. start:
+            <ol start="5">
+                <li>Step Five</li>
+            </ol>
+        3. reversed:
+            <ol reversed>
+                <li>Last Step</li>
+                <li>Second Last</li>
+            </ol>
+    -->
+
+    <!-- 
+    <ul> - displays list items with bullet (.) by default
+        Example:
+    -->
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+    <!-- Use list-style-type property to change their display behavior e.g none, square, circle e.t.c -->
+
+
+    <!-- Nested List - involves having list item inside another list item -->
+    <ul>
+        <li>BreakFast Meal</li>
+        <ol>
+            <li>Tea</li>
+            <li>Bread</li>
+            <li>Egg</li>
+        </ol>
+        <li>Lunch Meal</li>
+        <ol>
+            <li>Ugali</li>
+            <li>Sukuma</li>
+        </ol>
+    </ul>
+
+    <!-- 
+    Description list <dl> - used for terms and their definition
+    Tags Used:
+        <dl> – Description List container
+        <dt> – Description Term
+        <dd> – Description Definition
+    -->
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+</body>
+
+</html>
