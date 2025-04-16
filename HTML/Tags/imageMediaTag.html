@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Denis Mwanzia">
+    <meta name="description" content="HTML images and media tags">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image and media Tags</title>
+</head>
+
+<body>
+    <!-- 
+    <img> - embed an image 
+    <audio> - embeds audio
+    <video> - embeds video
+    <source> - points to media sources
+    <track> - subtitle for media
+    -->p
+
+    <!-- 
+    <img> attributes
+    src - path to image
+    alt - alterative Text (for screen readers, SEO, and fallback)
+    width - width of image
+    height - height of image
+    title - Tooltip on hover
+    loading - Lazy loads images (lazy, eager)
+    -->
+    <img src="./cat.png" alt="Cat Photo" width="500px" height="500px" title="Cat Photo" loading="lazy"> <br>
+
+    <!-- 
+    <Audio> Attributes 
+        1. control - displays play, pause, volume, etc
+        2. autoplay - starts playing automatically
+        3. loop - repeats the audio
+        4. muted - starts muted
+        5. preload - defines how audio should be loaded(auto,meta,none)
+    -->
+    <audio controls autoplay muted loop>
+        <source src="./beat.mp3" type="audio/mp3">
+    </audio> <br>
+
+    <!-- 
+    <video> attribute
+        1. controls - display play, pause, volume, timeline etc
+        2. autoplay - play video when page loads
+        3. loop - repeat the video
+        4. muted - mutes video by default
+        5. poster - thumbnail image before the video starts
+        6. preload - defines how to load the video(auto, metadata, none)
+    -->
+    <video controls width="200px" autoplay height="100%">
+        <source src="./video.MP4" type="video/mp4">
+    </video> <br>
+
+    <!-- 
+    <track> - caption/subtitles for video 
+    Attributes
+     1. kind - subtitle, captions, descriptions, metadata or purpose
+     2. scrlang - language code e.g en, fr etc
+     3. label - Label shown in video player
+     4. default - makes it the default subtitle
+    -->
+    <video controls width="200px" autoplay height="100%">
+        <source src="./video.MP4" type="video/mp4">
+        <track kind="subtitles" srclang="en" label="English" default>
+    </video>
+</body>
+
+</html>
