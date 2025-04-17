@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" author="Denis Mwanzia">
+    <meta name="description" content="HTML table Tags">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tags</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+    
+        th,
+        td {
+            border: 1px solid #888;
+            padding: 10px;
+            text-align: center;
+        }
+    
+        th {
+            background-color: #f2f2f2;
+        }
+    
+        caption {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 
+    html table is used to display data in-terms of rows and columns
+    Table Tags Overview:
+    1. <table> - wraps the entire table
+    2. <tr> - defines table row
+    3. <td> - defines table data
+    4. <thead> - groups header rows
+    5. <tbody> - groups the body rows
+    6. <tfoot> - groups footer rows
+    7. <caption> - add title to table
+    8. <th> - defined table header
+    9. <colgroup> - group column for styling
+    10. <col> - styles individual columns
+
+    Table attribute
+    1. border - sets the border width
+    2. cellpadding - spacing between cell content and border
+    3. cellspacing - spacing between cells
+    4. rowspan - merge multiple rows
+    5. colspan - merge multiple columns
+    -->
+    <table>
+        <caption>Weekly Class Timetable</caption>
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>8:00 - 10:00</th>
+                <th>10:00 - 12:00</th>
+                <th>1:00 - 3:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td>Math</td>
+                <td>English</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td>History</td>
+                <td>ICT</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td colspan="3">Field Trip</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td>English</td>
+                <td>Science</td>
+                <td>ICT</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>Math</td>
+                <td colspan="2">Sports</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
