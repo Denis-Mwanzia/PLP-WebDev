@@ -12,7 +12,6 @@ tags: []
 2. **Type selector**
    - Targets all instances of particular element.
 3. **ID selector (#)**
-   - Targets elements with unique ```id``` attribute.
 4. **Class selector (.)**
    - Targets all elements with specific ```class``` attribute.
 5. **Attributes selector**
