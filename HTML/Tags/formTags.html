@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Denis Mwanzia">
+    <meta name="description" content="HTML form">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tags</title>
+</head>
+
+<body>
+    <!-- Form collects user input and send it to server for processing or script script for processing -->
+    <!-- Html Form Tags -->
+    <!-- 
+    <form> - encloses all form elements
+    <input> - single line user input
+    <textarea> - multiple line user input
+    <label> - labels form fields
+    <select> - dropdown
+    <option> - options within <select>
+    <button> - clickable buttons
+    <fieldset> - group related form control
+    <legend> - title for <fieldset>
+    -->
+    <!-- <form> attributes -->
+    <!-- 
+        method - URL to send form data
+        action - GET(data visible in url) POST(secure)
+        enctype - Data encoding(Used for file upload)
+        target - defines where to open response(_blank,_self)
+        autocomplete - on/off for browser autofill
+    -->
+    <!-- common <input> type -->
+    <!-- 
+     type text - single line of text
+     type password - hidden characters
+     type data, datetime-local, time - date/time input
+     type number, range - numeric input
+     type tel - valid telephone input
+     type email - valid email format
+     type radio - radio buttons
+     type checkbox - checkboxes
+     type file - file upload
+     type submit, reset, button - buttons
+    -->
+    <!-- Example -->
+    <form action="#" method="post">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="fname" required><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="password" id="password" required><br>
+        <br><input type="reset" value="Clear">
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- 
+    NB: HTML5 Form Validation 
+    1. required
+    2. maxlength, minlength
+    3. max, min
+    4. pattern="regex"
+    5. type="email"
+    -->
+</body>
+
+</html>
