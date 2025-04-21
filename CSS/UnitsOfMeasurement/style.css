@@ -8,3 +8,12 @@
 .about h2 {
     font-size: 36px;
 }
+
+/* Relative Units */
+.services h2 {
+    font-size: 2rem;
+}
+
+.services p {
+    font-size: 1.2rem;
+}
