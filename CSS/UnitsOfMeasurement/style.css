@@ -1,0 +1,10 @@
+/* Absolute Units */
+.about p {
+    color: #fff;
+    background-color: #333;
+    font-size: 24px;
+}
+
+.about h2 {
+    font-size: 36px;
+}
